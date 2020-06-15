@@ -43,7 +43,7 @@ plot(mclubs, clubs=NULL, avgTP = TRUE, legend=TRUE, plot_args = list(type='o'))
 dev.off()
 
 
-###Exportando el mapa como svg
+##Exportando el mapa como svg
 svg(file="figures/meandownstreamTP.svg",height = 400,width = 400) #Especifiaciones del archivo
 #title(main = "T??tulo",cex=1) #T??tulo
 plot(mclubs, clubs=NULL, avgTP = TRUE, legend=TRUE, plot_args = list(type='o'))
